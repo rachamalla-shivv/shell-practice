@@ -1,0 +1,5 @@
+#!/bin/bash
+PERSON1=$1
+PERSON2=$2
+echo "$PERSON1 :: hi,how are you?"
+echo "$PERSON2 :: heloo; I'm fine,$PERSON1"
