@@ -21,7 +21,6 @@ SCRIPT_NAME=$( echo $0 | cut -d "." -f1 )
 LOGS_FILE=$LOG_FOLDER/$SCRIPT_NAME.log
 
 mkdir -p $LOG_FOLDER
-touch $LOGS_FILE
 
 VALIDATE() {
     if [ $1 -ne 0 ]; then
